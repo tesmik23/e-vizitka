@@ -5,7 +5,7 @@ body {background-color: #D8D3C9;
     .box{
         display: grid;
         max-width: 1200px;
-        min-height: 850px
+        min-height: 850px;
         margin:auto;
         gap: 14px;
         grid-template-columns: 1.5fr 1.05fr 0.9fr;
