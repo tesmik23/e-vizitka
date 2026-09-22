@@ -23,17 +23,46 @@ body {background-color: #D8D3C9;
     grid-area:container1;
 
     flex-direction: column;
+    justify-content: space-between;
 
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 90px;
+        line-height: 0.9;
+
+    }
    
    
 }
 .container2 {
+    display: flex;
     background-color:#181818 ;
    border-radius: 24px;
     grid-area:container2;
     color:#F5F2EA;
    
    padding: 28px;
+ flex-direction: column;
+    justify-content: space-between;
+
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+h2{
+        font-size: 67px;
+        line-height: 0.9;
+
+    }
+   
 }
 .container3 {
     background-color:#D8FF45;
