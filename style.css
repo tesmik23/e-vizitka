@@ -97,12 +97,29 @@ a:hover{
 
 }
 .container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #6758F5;
    border-radius: 24px;
     grid-area:container5;
     color:#F5F2EA;
    
     padding: 28px;
+
+a {
+    color: aliceblue;
+}
+.top {
+    font-size: 14px;
+}
+h4 {
+    font-size: 45px;
+    line-height: 1;
+  margin: 0px;
+margin-left: 5px;
+margin-top: 80px;
+}
 }
 .container4 {
     display: flex;
@@ -116,7 +133,7 @@ a:hover{
       font-size: 14px;
       }
       .under{
-        font-size: 28px;
+        font-size: 32px;
         font-weight: bolder;
       }
 
