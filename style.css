@@ -1,5 +1,6 @@
 body {background-color: #D8D3C9;
     padding: 28px;
+    font-family: "Space Grotesk", sans-serif;
       
     }
     .box{
@@ -35,6 +36,7 @@ body {background-color: #D8D3C9;
     h1{
         font-size: 90px;
         line-height: 0.9;
+        margin: 0;
 
     }
    
@@ -65,11 +67,34 @@ h2{
    
 }
 .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color:#D8FF45;
     border-radius: 24px;
  grid-area:container3;
  
  padding: 28px;
+ .top {
+   
+    font-size: 12px;
+}
+h3{
+    font-size: 55px;
+    margin: 0px;
+}
+a{
+    color: #181818;
+    text-decoration: none;
+    font-weight: bolder;  
+}
+a:hover{
+    color: #6758F5;
+}
+.under p{
+    margin-top: 5px;
+}
+
 }
 .container5 {
     background-color: #6758F5;
@@ -80,10 +105,20 @@ h2{
     padding: 28px;
 }
 .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color:#F5F2EA ;
     border-radius: 24px;
      grid-area:container4;
+      padding: 28px;
+      .top {
+      font-size: 14px;
+      }
+      .under{
+        font-size: 28px;
+        font-weight: bolder;
+      }
 
-     
-     padding: 28px;
+    
 }
